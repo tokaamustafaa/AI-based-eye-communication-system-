@@ -1,0 +1,12 @@
+{
+  "include": ["."],
+  "extraPaths": [
+    ".",
+    "C:\\Users\\toka mustafa\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages"
+  ],
+  "pythonPath": "C:\\Users\\toka mustafa\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+  "pythonVersion": "3.10",
+  "typeCheckingMode": "basic",
+  "reportMissingModuleSource": "none",
+  "reportMissingImports": "none"
+}
