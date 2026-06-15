@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(find \"/mnt/c/Users/toka mustafa/OneDrive/Desktop/digilians_graduation\" -type f 2>/dev/null | head -30)",
-      "Read(//mnt/c/Users/toka mustafa/OneDrive/Desktop/**)"
-    ]
-  }
-}
