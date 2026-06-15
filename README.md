@@ -1,4 +1,4 @@
-# Eye Communication System
+# AI-Based Eye Gaze Communication System for Paralysis Patients
 
 Assistive gaze communication system for ALS/paralyzed users.
 This graduation project uses eye-tracking, gaze mapping, and blink confirmation to let users select words from a 3×3 communication grid.
@@ -22,10 +22,15 @@ This graduation project uses eye-tracking, gaze mapping, and blink confirmation 
 
 ## Run the project
 
-### 1. Launch the Streamlit UI
+### 1. Install dependencies
 
 ```bash
-pip install streamlit
+pip install -r requirements.txt
+```
+
+### 2. Launch the Streamlit UI
+
+```bash
 streamlit run app.py
 ```
 
@@ -45,11 +50,29 @@ python main_system.py --flip --no-blink
 python main_system.py --flip --shift-y 200
 ```
 
+## Dependencies
+
+The main dependencies are listed in `requirements.txt`.
+
+Recommended libraries:
+
+```bash
+streamlit
+torch
+torchvision
+opencv-python
+numpy
+pygame
+matplotlib
+mediapipe
+requests
+```
+
 ## Notes
 
 - `.claude/` contains local editor settings and is ignored from the repository.
 - `memory/project_gaze_communication.md` contains project research notes and is included intentionally.
-- There is no `requirements.txt` in this repo yet; install dependencies manually as needed.
+- A `requirements.txt` file has been added for dependency installation.
 
 ## Recommended GitHub setup
 
