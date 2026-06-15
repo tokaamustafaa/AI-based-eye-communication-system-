@@ -68,22 +68,6 @@ mediapipe
 requests
 ```
 
-## Notes
 
-- `.claude/` contains local editor settings and is ignored from the repository.
-- `memory/project_gaze_communication.md` contains project research notes and is included intentionally.
-- A `requirements.txt` file has been added for dependency installation.
 
-## Recommended GitHub setup
 
-- Keep `checkpoints/` and `archive/` out of the repo if they contain large trained models or data files.
-- Add additional ignored files as needed for your local environment.
-
-## Info needed from you
-
-Please confirm or provide:
-
-- Project title and short description you want shown at the top
-- Your name or organization for the author section
-- Any required dependencies or a `requirements.txt` you want included
-- Preferred license (MIT, Apache 2.0, GPL, etc.)
