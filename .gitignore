@@ -14,3 +14,4 @@ archive*/
 *.pth
 *.task
 .DS_Store
+\n.claude/\n
