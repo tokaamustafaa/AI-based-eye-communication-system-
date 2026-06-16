@@ -14,8 +14,8 @@ import threading
 import requests
 
 # ── Credentials ────────────────────────────────────────────────────────────────
-PUSHOVER_API_TOKEN = "awdfboz6bi1x7wy27r1ev8mcyhdb5u"   # <-- paste your app token here
-PUSHOVER_USER_KEY  = "uztpcjiig8serbq75nguuage3g1juf"        # <-- paste your user key here
+PUSHOVER_API_TOKEN = ""   # <-- paste your app token here
+PUSHOVER_USER_KEY  = ""        # <-- paste your user key here
 # ───────────────────────────────────────────────────────────────────────────────
 
 _PUSHOVER_URL = "https://api.pushover.net/1/messages.json"
