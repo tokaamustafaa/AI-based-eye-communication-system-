@@ -8,9 +8,7 @@ import cv2
 def open_camera(prefer_droidcam: bool = True,
                 width: int = 640,
                 height: int = 480) -> cv2.VideoCapture:
-    """
-    بيجرب index 1 الأول (iVCam)، لو مش شغال بيجرب 0.
-    """
+    
     for idx in [1, 0]:
         cap = cv2.VideoCapture(idx)
         cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)
