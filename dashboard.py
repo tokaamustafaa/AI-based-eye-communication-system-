@@ -144,10 +144,10 @@ def index():
         except:
             logs = []
 
-    # فلتر النهارده بس
+  
     today = datetime.date.today().strftime("%Y-%m-%d")
     today_logs = [l for l in logs if l["time"].startswith(today)]
-    today_logs.reverse()  # الأحدث فوق
+    today_logs.reverse() 
 
     urgent      = next((l for l in today_logs if l["urgent"]), None)
     urgent_count = sum(1 for l in today_logs if l["urgent"])
