@@ -13,8 +13,8 @@ import datetime
 app = Flask(__name__)
 LOG_FILE = "medical_log.json"
 
-DASHBOARD_USER = os.environ.get("DASHBOARD_USER", "caregiver")
-DASHBOARD_PASS = os.environ.get("DASHBOARD_PASS", "admin123")
+DASHBOARD_USER = os.environ.get("DASHBOARD_USER", "")
+DASHBOARD_PASS = os.environ.get("DASHBOARD_PASS", "")
 
 
 def _require_auth(f):
